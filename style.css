@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.div1 {
+    padding: 40px 71px 0 71px;
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: #edfbff;
+    height: 535px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .try {
+        background-color: white;
+        box-shadow: 0 0 3px 0;
+        text-align: center;
+        width: 160px;
+        padding: 10px;
+        font-weight: 600;
+        border-radius: 100px;
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+}
+
+.part1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.arti1 {
+    margin: 19px 0 0 0;
+    width: 470px;
+}
+
+.build {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    margin-top: 50px;
+    margin-bottom: 23px;
+}
+
+
+.huddle {
+    font-size: 15px;
+    font-weight: 400;
+    width: 470px;
+}
+
+.mockup {
+    width: 620px;
+    margin-top: 59px;
+}
+
+.get {
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    box-shadow: 0 0 5px 0;
+    text-align: center;
+    padding: 17px;
+    font-weight: 600;
+    border-radius: 100px;
+    width: 255px;
+    margin-top: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 90px 0 90px
+}
+
+.grow {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px 0;
+    justify-content: space-between;
+    border-radius: 15px;
+    height: 333px;
+    padding: 30px 30px 30px 105px;
+    margin-top: 40px;
+
+    div {
+        width: 450px;
+    }
+
+    img {
+        width: 355px;
+    }
+}
+
+.growhdr {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.gnrt {
+    font-size: 15px;
+    color: hsl(208, 11%, 55%);
+    width: 450px;
+    font-weight: 400;
+}
+
+.ready {
+    position: relative;
+    left: 195px;
+    top: 85px;
+    background-color: white;
+    box-shadow: 0 0 2px 0;
+    width: 710px;
+    text-align: center;
+    border-radius: 15px;
+    height: 213px;
+    padding-top: 37px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.get2 {
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    box-shadow: 0 0 5px 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 100px;
+    border: none;
+    word-spacing: 2px;
+    padding: 24px 88px 24px 88px;
+}
+
+.ftr {
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(193, 100%, 96%);
+    height: 497px;
+    padding: 0 107px 0 107px;
+    line-height: 20px;
+    font-weight: 400;
+
+    img {
+        height: 36px;
+        margin-bottom: 15px;
+        margin-top: 170px;
+    }
+}
+
+.abt {
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lgz {
+    display: flex;
+
+    img {
+        height: 15px;
+        margin: 5px 18px 0 0;
+    }
+}
+
+.btmgap {
+    justify-content: space-between;
+    width: 877px;
+    gap: 0px;
+    font-size: 14px;
+}
+
+.about {
+    margin-right: -80px;
+}
+
+.cr {
+    text-align: right;
+    margin-top: 15px;
+    margin-right: -32px;
+    font-size: 11px;
+}
+
+
+@media (max-width:376px) {
+
+    .div1 {
+        padding: 20px 17px 0 17px;
+    }
+
+    .top {
+        .try {
+            width: 83px;
+            padding: 4px;
+            font-size: 10px;
+        }
+
+        .logo {
+            width: 97px;
+        }
+    }
+
+    .part1 {
+        flex-direction: column;
+    }
+
+    .arti1 {
+        margin-top: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .build {
+        font-size: 24px;
+        line-height: 34px;
+        padding-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .huddle {
+        font-size: 16px;
+        font-weight: 400;
+        width: 330px;
+    }
+
+    .div1 {
+        height: 715px;
+    }
+
+    .get {
+        padding: 14px;
+        width: 250px;
+        margin-top: 25px;
+    }
+
+    .mockup {
+        width: 320px;
+    }
+
+    .container {
+        margin: 10px 20px 10px 20px;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .grow {
+        flex-direction: column;
+        padding: 10px 10px 10px 10px;
+        height: auto;
+        margin-top: 0;
+        text-align: center;
+
+        div {
+            width: auto;
+        }
+
+        img {
+            order: -1;
+            width: 230px;
+            margin: 40px 0 40px 0;
+        }
+
+    }
+
+    .gnrt {
+        font-size: 13px;
+        width: 280px;
+        font-weight: 400;
+    }
+
+    .growhdr {
+        font-size: 20px;
+    }
+
+    .ready {
+        left: 0;
+        top: 90px;
+        box-shadow: 0 0 2px 0;
+        width: 340px;
+        text-align: center;
+        border-radius: 15px;
+        height: 190px;
+        padding-top: 37px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .get2 {
+        font-size: 9px;
+        padding: 16px 48px 16px 48px;
+        margin-top: 40px
+    }
+
+    .ftr {
+        height: auto;
+        padding: 0 0 0 20px;
+    }
+
+    .abt {
+        width: 355px;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .lgz {
+        display: flex;
+
+        img {
+            height: 15px;
+            margin: 5px 18px 0 0;
+        }
+    }
+
+    .btmgap {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 360px;
+        gap: 0px;
+        font-size: 14px;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .cr {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 11px;
+    }
+
+
+}
+
+/* 
+.grow {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px 0;
+    justify-content: space-between;
+    border-radius: 15px;
+    height: 333px;
+    padding: 30px 30px 30px 105px;
+    margin-top: 40px;
+
+    div {
+        width: 450px;
+    }
+
+    img {
+        width: 355px;
+    }
+} */
